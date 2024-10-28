@@ -1,5 +1,4 @@
 .container {
-  font-family: glitch;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,9 +7,13 @@
   background: linear-gradient(45deg,#f42272,#b8b8f3,#f397d6,#d7b8f3);
   background-size: 240% 240%;
   animation: gradient-animation 12s ease infinite;
+  font-family: rainy-hearts;
 }
 .heading {
+  font-family: glitch;
   color: black;
+  text-align: center;
+  font-size: 50px;
 }
 .nav-links {
   display: flex;
@@ -38,4 +41,8 @@
 @font-face {
   font-family: glitch;
   src: url(../fonts/Glitchdemo-lxgGq.ttf);
+}
+@font-face {
+  font-family: rainy-hearts;
+  src: url(../fonts/rainyhearts.ttf);
 }
