@@ -1,5 +1,5 @@
 .container {
-  font-family: sans-serif;
+  font-family: glitch;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,4 +34,8 @@
   100% {
     background-position: 0% 50%;
   }
+}
+@font-face {
+  font-family: glitch;
+  src: url(../fonts/Glitchdemo-lxgGq.ttf);
 }
