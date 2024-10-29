@@ -12,6 +12,21 @@
     font-family: glitch;
     text-decoration: none;
 }
+.list li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.links {
+    text-decoration: none;
+    font-size: 40px;
+    color: #b8b8f3;
+}
+.links:hover {
+    color: #f42272;
+}
+
 
 @font-face {
     font-family: glitch;

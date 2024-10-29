@@ -9,12 +9,12 @@ const Navbar = () => {
                 <Link to='/' className={navbarStyles.logo}>Sophia Hunt</Link>
             </div>
             <div>
-                <ul>
+                <ul className={navbarStyles.list}>
                     <li>
-                        <Link to ='../about'>About</Link>
+                        <Link to ='../about' className={navbarStyles.links}>about</Link>
                     </li>
                     <li>
-                        <Link to='../portfolio'>Portfolio</Link>
+                        <Link to='../portfolio'  className={navbarStyles.links}>portfolio</Link>
                     </li>
                 </ul>
             </div>
