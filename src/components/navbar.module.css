@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232e21;
+    padding: 20px;
+    margin: 0;
+}
+.logo {
+    color: #f397d6;
+    font-size: 50px;
+    font-family: glitch;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: glitch;
+    src: url(../fonts/Glitchdemo-lxgGq.ttf);
+  }
