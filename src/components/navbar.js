@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className={navbarStyles.pixelCorners}>
             <nav className={navbarStyles.navbar}>
                 <div>
-                    <Link to='/' className={navbarStyles.logo}>home</Link>
+                    <Link to='/' className={navbarStyles.home}>home</Link>
                 </div>
                 <div>
                     <ul className={navbarStyles.list}>

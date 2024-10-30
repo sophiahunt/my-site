@@ -9,12 +9,12 @@
     border-radius: 10px;
     font-family: glitch;
 }
-.logo {
+.home {
     color: #f397d6;
     font-size: 40px;
     text-decoration: none;
 }
-.logo:hover {
+.home:hover {
     color: #f42272;
 }
 .list li {

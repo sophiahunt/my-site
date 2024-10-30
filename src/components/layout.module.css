@@ -9,12 +9,6 @@
   animation: gradient-animation 12s ease infinite;
   font-family: rainy-hearts;
 }
-.heading {
-  font-family: glitch;
-  color: black;
-  text-align: center;
-  font-size: 50px;
-}
 
 @keyframes gradient-animation {
   0% {

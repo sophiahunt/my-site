@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import Navbar from './navbar';
+import IndexContent from '../components/index_content';
 
 // importing individual css modules seperately
 /* import {
@@ -16,6 +17,7 @@ const Layout = ({ pageTitle, children }) => {
     <div>
       <div className ={layoutStyles.container}>
         <Navbar />
+        <IndexContent />
         {children}
       </div>
     </div>
