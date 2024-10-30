@@ -3,30 +3,75 @@
     justify-content: space-between;
     align-items: center;
     background-color: #232e21;
-    padding: 20px;
-    margin: 0;
+    height: 40px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: glitch;
 }
 .logo {
     color: #f397d6;
-    font-size: 50px;
-    font-family: glitch;
+    font-size: 40px;
     text-decoration: none;
+}
+.logo:hover {
+    color: #f42272;
 }
 .list li {
     list-style-type: none;
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding-left: 20px;
 }
 .links {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     color: #b8b8f3;
 }
 .links:hover {
     color: #f42272;
 }
 
+.pixel-corners {
+    clip-path: polygon(
+      0px calc(100% - 20px),
+      4px calc(100% - 20px),
+      4px calc(100% - 12px),
+      8px calc(100% - 12px),
+      8px calc(100% - 8px),
+      12px calc(100% - 8px),
+      12px calc(100% - 4px),
+      20px calc(100% - 4px),
+      20px 100%,
+      calc(100% - 20px) 100%,
+      calc(100% - 20px) calc(100% - 4px),
+      calc(100% - 12px) calc(100% - 4px),
+      calc(100% - 12px) calc(100% - 8px),
+      calc(100% - 8px) calc(100% - 8px),
+      calc(100% - 8px) calc(100% - 12px),
+      calc(100% - 4px) calc(100% - 12px),
+      calc(100% - 4px) calc(100% - 20px),
+      100% calc(100% - 20px),
+      100% 20px,
+      calc(100% - 4px) 20px,
+      calc(100% - 4px) 12px,
+      calc(100% - 8px) 12px,
+      calc(100% - 8px) 8px,
+      calc(100% - 12px) 8px,
+      calc(100% - 12px) 4px,
+      calc(100% - 20px) 4px,
+      calc(100% - 20px) 0px,
+      20px 0px,
+      20px 4px,
+      12px 4px,
+      12px 8px,
+      8px 8px,
+      8px 12px,
+      4px 12px,
+      4px 20px,
+      0px 20px
+    );
+  }
 
 @font-face {
     font-family: glitch;
