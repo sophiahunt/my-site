@@ -1,13 +1,10 @@
 .container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: linear-gradient(45deg,#f42272,#b8b8f3,#f397d6,#d7b8f3);
   background-size: 240% 240%;
   animation: gradient-animation 12s ease infinite;
   font-family: rainy-hearts;
+  padding: 15px;
+  min-height: 100vh;
 }
 
 @keyframes gradient-animation {
@@ -29,3 +26,9 @@
   font-family: rainy-hearts;
   src: url(../fonts/rainyhearts.ttf);
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+  
+  
