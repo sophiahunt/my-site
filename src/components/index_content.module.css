@@ -1,41 +1,36 @@
-.cat-logo {
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    display: flex;
+    justify-content: center;
 }
-.heading {
-    font-size: 50px;
-    color:#232e21;
-    font-family: glitch;
+.left-container {
+    margin: 50px;
+    width:500px;
+    height:500px;
+}
+.left-container img {
+    width:500px;
+    height:500px;
+}
+.right-container {
+    margin: 50px;
+    padding-top: 150px;
+    height: 500px;
+    width: 500px;
+    font-family: heading;
+    font-size: 80px;
+    color: #0E0F19;
     text-align: center;
-    margin: 0px;
 }
-.body-text {
-    font-size: 40px;
-    color: #232e21;
-    width: 800px;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.footer {
+.header {
+    font-family: body;
     font-size: 20px;
-    margin-top: 200px;
-    text-align: center;
-}
-img { 
-    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated;                 /* Universal support since 2021   */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
-
+    margin: 20px;
 }
 @font-face {
-    font-family: glitch;
-    src: url(../fonts/Glitchdemo-lxgGq.ttf);
+    font-family: body;
+    src: url(../fonts/Montserrat-Light.ttf);
   }
+@font-face {
+    font-family: heading;
+    src: url(../fonts/Bogart-Regular-trial.ttf);
+}
