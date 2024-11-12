@@ -4,7 +4,6 @@ import * as navbarStyles from './navbar.module.css';
 
 const Navbar = () => {
     return (
-        <div className={navbarStyles.pixelCorners}>
             <nav className={navbarStyles.navbar}>
                 <div>
                     <Link to='/' className={navbarStyles.home}>home</Link>
@@ -23,7 +22,6 @@ const Navbar = () => {
                     </ul>
                 </div>
             </nav>
-        </div>
     )
 }
 
