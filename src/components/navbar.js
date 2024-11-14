@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { Link } from 'gatsby';
-import * as navbarStyles from './navbar.module.css';
+import './navbar.css';
 import logo from '../images/logo.png';
 import hamburger from "../icons/hamburger.png";
 
@@ -13,15 +13,15 @@ const Navbar = () => {
     }
 
     return (
-            <nav className={navbarStyles.navbar}>
-                <div className={navbarStyles.container}>
-                    <div className={navbarStyles.logo}>
+            <nav className="navbar">
+                <div className="container">
+                    <div className="logo">
                         <img src={logo} />
                     </div>
-                    <div className={navbarStyles.menuIcon} onClick={handleShowNavbar}>
+                    <div className="menu-icon" onClick={handleShowNavbar}>
                         <img src={hamburger} />
                     </div>
-                    <div className={navbarStyles.navElements}>
+                    <div className={`nav-elements ${showNavbar && 'active'}`}>
                         <ul>
                             <li>
                                 <Link to="/">Home</Link>
