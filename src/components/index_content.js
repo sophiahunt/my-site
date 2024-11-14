@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import * as contentStyles from './index_content.module.css';
-import sophia from "../images/sophia.png"
+import sophia from "../images/sophia-alt.png"
 
 const IndexContent = () => {
     return (
@@ -11,7 +11,7 @@ const IndexContent = () => {
             </div>
    
             <div className={contentStyles.rightContainer}>
-                <p className={contentStyles.header}>PORTFOLIO</p>
+                <p className={contentStyles.header}>HELLO! MY NAME IS</p>
                 <p>Sophia Hunt</p>
                 <p className={contentStyles.header}>SOFTWARE DEVELOPER AND DESIGNER</p>
             </div>
