@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: heading;
-    background-color: black;
+    font-family: body;
 }
 .container {
     max-width: 1100px;
@@ -19,9 +18,6 @@ body {
     position: relative;
   }
   
-  .logo {
-  }
-
   .logo img {
     height: 100px;
   }
@@ -53,7 +49,6 @@ body {
   }
   
   .nav-elements ul a.active {
-    color: #574c4c;
     font-weight: 500;
     position: relative;
   }
@@ -65,7 +60,6 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #574c4c;
   }
   
   @media (max-width: 768px) {
@@ -83,16 +77,16 @@ body {
     .nav-elements {
       position: absolute;
       right: 0;
-      top: 60px;
-      background-color: #fef7e5;
+      top: 115px;
+      background-color: #0e0f19;
       width: 0px;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 100px);
       transition: all 0.3s ease-in;
       overflow: hidden;
     }
   
     .nav-elements.active {
-      width: 270px;
+      width: 200px;
     }
   
     .nav-elements ul {
@@ -102,11 +96,12 @@ body {
   
     .nav-elements ul li {
       margin-right: unset;
-      margin-top: 22px;
+      margin-top: 20px;
+      margin-left: 15px;
     }
   }
 
 @font-face {
-    font-family: heading;
+    font-family: body;
     src: url(../fonts/Bogart-Regular-trial.ttf);
   }
