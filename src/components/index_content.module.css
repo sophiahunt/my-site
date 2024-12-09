@@ -1,6 +1,8 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .left-container {
     margin: 20px;
@@ -10,7 +12,6 @@
 }
 .right-container {
     margin: 50px;
-    padding-top: 150px;
     width: 500px;
     font-family: heading;
     font-size: 80px;
