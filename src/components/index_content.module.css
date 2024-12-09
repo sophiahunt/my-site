@@ -17,13 +17,9 @@
     color: #0E0F19;
     text-align: center;
 }
-.retro-wave {
-    background-image: url("../images/retrowave.png");
-    background-repeat: no-repeat;
-    background-size: 70% auto;
-    background-position: top right;
+.right-container img {
+    width: 300px;
 }
-
 .header {
     font-family: body;
     font-size: 20px;

@@ -6,7 +6,7 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ body {
   }
   
   .logo img {
-    height: 100px;
+    height: 80px;
   }
   
   .menu-icon {

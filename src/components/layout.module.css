@@ -1,8 +1,10 @@
 .container {
-  background: #EF476F;
   font-family: body;
   padding: 15px;
   min-height: 100vh;
+  background: linear-gradient(45deg,#fb5feb,#108dbe,#ff0099);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
 @font-face {
   font-family: heading;
@@ -17,4 +19,14 @@
   margin: 0;
 }
   
-  
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}  
