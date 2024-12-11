@@ -16,7 +16,6 @@
 }
 .right-container {
     flex: 1;
-    margin: 50px;
     width: 500px;
     font-family: heading;
     font-size: 80px;
