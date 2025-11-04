@@ -2,9 +2,7 @@
   font-family: body;
   padding: 15px;
   min-height: 100vh;
-  background: linear-gradient(45deg,#fb5feb,#108dbe,#ff0099);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  background: lightpink;
 }
 * {
   padding: 0;

@@ -12,9 +12,6 @@ const Layout = ({ pageTitle, children }) => {
         </div>
         {children}
       </div>
-      <div className = {layoutStyles.footer}>
-        <p>&copy; Sophia Hunt 2024. Site created with React and Gatsby.</p>
-      </div>
     </div>
   )
 }
