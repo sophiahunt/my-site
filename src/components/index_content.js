@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import * as contentStyles from './index_content.module.css';
-import sophia from "../images/soop1.png";
-import sophia2 from '../images/soop2.png';
+import sophia from "../images/sophia_main.png";
+import landingLogo from '../images/landing_logo.png';
 
 const IndexContent = () => {
     return (
@@ -12,10 +12,8 @@ const IndexContent = () => {
             </div>
     
             <div className={contentStyles.rightContainer}>
-                <p className={contentStyles.header}>HELLO! MY NAME IS</p>
-                <p>Sophia Hunt</p>
-                <p className={contentStyles.header}>SOFTWARE DEVELOPER AND DESIGNER</p>
-                <img src={sophia2} />
+                <img src={landingLogo} />
+                <p>software developer & designer</p>
             </div>
         </div>
     )
