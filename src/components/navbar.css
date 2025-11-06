@@ -4,7 +4,6 @@ body {
     font-family: body;
 }
 .container {
-    max-width: 1100px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -32,9 +31,9 @@ body {
   }
   
   .nav-elements ul {
-    display: flex;
-    justify-content: end;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
   }
   
   .nav-elements ul li:not(:last-child){
