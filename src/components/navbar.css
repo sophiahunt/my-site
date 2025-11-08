@@ -15,6 +15,7 @@ body {
     background-color: #F391A0;
     position: relative;
     border-radius: 10px;
+    min-width: 300px;
   }
   
   .logo img {
