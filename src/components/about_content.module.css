@@ -1,0 +1,15 @@
+.container {
+  font-family: body;
+  padding: 15px;
+  min-height: 100vh;
+  min-width: 330px;
+  background-color: #21A0A0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: body;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+} 
