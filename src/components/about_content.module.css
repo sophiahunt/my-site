@@ -1,0 +1,45 @@
+.main {
+  font-family: body;
+  padding: 15px;
+  min-height: 100vh;
+  min-width: 330px;
+  background-color: #21A0A0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.left-container {
+    flex: 1 1 600px;
+    text-align: center;
+
+}
+.right-container {
+    flex: 1 1 600px;
+    text-align: center;
+
+}
+.left-container img {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+}
+.right-container img {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+}
+
+@font-face {
+  font-family: body;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+} 

@@ -6,12 +6,10 @@ import * as layoutStyles from './layout.module.css';
 const Layout = ({ pageTitle, children }) => {
   return (
     <div>
-      <div className ={layoutStyles.container}>
-        <div className = {layoutStyles.navContainer}>
+      <div className ={layoutStyles.container}>ß
           <Navbar />
         </div>
         {children}
-      </div>
     </div>
   )
 }

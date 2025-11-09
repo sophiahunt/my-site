@@ -1,13 +1,12 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import AboutContent from '../components/about_content';
 
 // define component
 const AboutPage = () => {
     return (
-        <Layout pageTitle = "About Me">
-            <p>I'm just a girlypop making herself a website</p>
-        </Layout>
+        <AboutContent pageTitle = "About Page"/>
     )
 }
 

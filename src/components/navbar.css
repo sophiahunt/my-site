@@ -15,6 +15,7 @@ body {
     background-color: #F391A0;
     position: relative;
     border-radius: 10px;
+    min-width: 300px;
   }
   
   .logo img {
@@ -73,12 +74,13 @@ body {
       top: 115px;
       background-color: #F391A0;
       width: 0px;
-      height: calc(100vh - 100px);
+      height: calc(100vh - 15px);
       transition: all 0.3s ease-in;
       overflow: hidden;
     }
   
     .nav-elements.active {
+      border-radius: 10px;
       width: 150px;
     }
   
