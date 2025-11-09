@@ -13,10 +13,14 @@
 
 }
 .left-container {
-    flex-basis: 600px;
+    flex: 1 1 600px;
+    text-align: center;
+
 }
 .right-container {
-    flex-basis: 600px;
+    flex: 1 1 600px;
+    text-align: center;
+
 }
 .left-container img {
     width: 100%;
@@ -28,8 +32,8 @@
 }
 .right-container img {
     width: 100%;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 800px;
+    min-width: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
     height: auto;
