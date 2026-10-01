@@ -13,7 +13,7 @@ const IndexContent = () => {
     
             <div className={contentStyles.rightContainer}>
                 <img src={landingLogo} />
-                <p>software developer & designer</p>
+                <p>technology professional in software development & ui/ux design</p>
             </div>
         </div>
     )
