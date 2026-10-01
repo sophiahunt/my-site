@@ -34,11 +34,16 @@ body {
   .nav-elements ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+
+  .nav-elements {
+    flex: 1;
+    margin-right: -20px;
   }
   
-  .nav-elements ul li:not(:last-child){
-    margin-right: 60px;
+  .nav-elements ul li {
+    margin: 0;
   }
   
   .nav-elements ul a {
@@ -46,6 +51,10 @@ body {
     font-weight: 400;
     color: #000000;
     text-decoration: none;
+  }
+
+  .nav-elements ul a:hover {
+    color: #FAFFD8;
   }
   
   .nav-elements ul a.active {
@@ -73,6 +82,8 @@ body {
       right: 0;
       top: 115px;
       background-color: #F391A0;
+      flex: none;
+      margin-right: 0;
       width: 0px;
       height: calc(100vh - 15px);
       transition: all 0.3s ease-in;
