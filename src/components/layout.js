@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
 import Navbar from './navbar';
 import * as layoutStyles from './layout.module.css';
 
@@ -9,6 +8,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className ={layoutStyles.container}>
           <Navbar />
           {children}
+          <footer className={layoutStyles.footer}>© Sophia Hunt 2026</footer>
       </div>
     </div>
   )
